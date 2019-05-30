@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game. Try to guess the number</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game">
+        <h3>Super game. Guess number!</h3>
+        <p>Input number from 1 to 10:</p>
+        <button id="startGame">Check your luck!</button>
+        <input id="section" type="text" placeholder="Input here">
+        <p>Are you lucky? <span id="answer"></span></p>
+        <p>True number > <span id="random"></span></p>
+        <button id="show">Show true number</button>
+        <button onclick="location.reload()">Reloda game</button>
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="status"></p>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
